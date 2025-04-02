@@ -17,3 +17,5 @@ dispatcher.add_handler(CommandHandler("start", start))
 dispatcher.add_handler(CommandHandler("report", report))
 
 updater.start_polling()
+
+fix: changed command to latin
