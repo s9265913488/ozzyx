@@ -14,6 +14,6 @@ def report(update, context):
 updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler("start", start))
-dispatcher.add_handler(CommandHandler("отчёт", report))
+dispatcher.add_handler(CommandHandler("report", report))
 
 updater.start_polling()
